@@ -1,0 +1,29 @@
+{
+  "name": "chattrbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladimirovstanislaw/chattrbox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vladimirovstanislaw/chattrbox/issues"
+  },
+  "homepage": "https://github.com/vladimirovstanislaw/chattrbox#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "mime": "^2.3.1",
+    "ws": "^6.0.0"
+  }
+}
